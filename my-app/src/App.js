@@ -37,9 +37,9 @@ decrementScore : function() {
   render : function() {
     return (
       <div className="componentPlayer">
-        <h1>{this.props.name}</h1>
+        <h2>{this.props.name}</h2>
         <button onClick={this.decrementScore}>-</button>
-        <h1>{this.state.playerScore}</h1>
+        <h2>{this.state.playerScore}</h2>
         <button onClick={this.incrementScore}>+</button>
       </div>
     )
